@@ -9,6 +9,7 @@ var gulp       = require('gulp'), // Подключаем Gulp
     imagemin     = require('gulp-imagemin'), // Подключаем библиотеку для работы с изображениями
     pngquant     = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
     cache        = require('gulp-cache'), // Подключаем библиотеку кеширования
+    rigger 			 = require('gulp-rigger'), // Подключаем библиотеку для объединения файлов в один
     autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
 
 gulp.task('sass', function(){ // Создаем таск Sass
@@ -31,7 +32,12 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 gulp.task('scripts', function() {
     return gulp.src([ // Берем все необходимые библиотеки
         'app/libs/jquery/dist/jquery.min.js', // Берем jQuery
-        'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js' // Берем Magnific Popup
+        'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // Берем Magnific Popup
+        'app/libs/tooltips.js', // Берем Magnific Popup
+        'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
+        'node_modules/bootstrap/js/dist/util.js',
+        'node_modules/bootstrap/js/dist/button.js',
+        'node_modules/bootstrap/js/dist/tooltip.js'
         ])
         .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
         .pipe(uglify()) // Сжимаем JS файл
