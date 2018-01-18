@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Roboto-Regular', 'Roboto';
+  src: url("app/fonts/RobotoRegular/robotoregular.eot");
+  src: url("app/fonts/RobotoRegular/robotoregular.eot#iefix") format("embedded-opentype"), url("app/fonts/RobotoRegular/robotoregular.woff") format("woff"), url("app/fonts/RobotoRegular/robotoregular.woff2") format("woff2"), url("app/fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"), url("app/fonts/RobotoRegular/robotoregular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Bold', 'Roboto';
+  src: url("app/fonts/RobotoBold/robotobold.eot");
+  src: url("app/fonts/RobotoBold/robotobold.eot#iefix") format("embedded-opentype"), url("app/fonts/RobotoBold/robotobold.woff") format("woff"), url("app/fonts/RobotoBold/robotobold.woff2") format("woff2"), url("app/fonts/RobotoBold/RobotoBold.ttf") format("truetype"), url("app/fonts/RobotoBold/robotobold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Medium', 'Roboto';
+  src: url("app/fonts/RobotoMedium/robotomedium.eot");
+  src: url("app/fonts/RobotoMedium/robotomedium.eot#iefix") format("embedded-opentype"), url("app/fonts/RobotoMedium/robotomedium.woff") format("woff"), url("app/fonts/RobotoMedium/robotomedium.woff2") format("woff2"), url("app/fonts/RobotoMedium/RobotoMedium.ttf") format("truetype"), url("app/fonts/RobotoMedium/robotomedium.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Light', 'Roboto';
+  src: url("app/fonts/RobotoLight/robotolight.eot");
+  src: url("app/fonts/RobotoLight/robotolight.eot#iefix") format("embedded-opentype"), url("app/fonts/RobotoLight/robotolight.woff") format("woff"), url("app/fonts/RobotoLight/robotolight.woff2") format("woff2"), url("app/fonts/RobotoLight/RobotoLight.ttf") format("truetype"), url("app/fonts/RobotoLight/robotolight.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Thin', 'Roboto';
+  src: url("app/fonts/RobotoThin/robotothin.eot");
+  src: url("app/fonts/RobotoThin/robotothin.eot#iefix") format("embedded-opentype"), url("app/fonts/RobotoThin/robotothin.woff") format("woff"), url("app/fonts/RobotoThin/robotothin.woff2") format("woff2"), url("app/fonts/RobotoThin/RobotoThin.ttf") format("truetype"), url("app/fonts/RobotoThin/robotothin.svg") format("svg");
+  font-weight: 100;
+  font-style: normal; }
