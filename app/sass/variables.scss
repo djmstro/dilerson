@@ -1,0 +1,105 @@
+// Color system
+//
+
+// stylelint-disable
+$white:    #fff !default;
+$gray-100: #F7F7F7 ;
+$gray-200: #e9ecef !default;
+$gray-300: #ECEEEF ;
+$gray-400: #EEEEEE ;
+$gray-500: #E4E4E4 ;
+$gray-600: #919191 ;
+$gray-700: #676767 ;
+$gray-800: #2A2A2A ;
+$gray-900: #1B1B1B ;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+), $grays);
+
+$blue:           #009ACA ;
+$indigo:         #6610f2 !default;
+$purple:         #6f42c1 !default;
+$pink:           #e83e8c !default;
+$red:            #D91919 ;
+$orange:         #FF6400 ;
+$yellow:         #FFCD27 ;
+$green:          #009688 ;
+$halfgray:       #818A91 ;
+$cyan:           #17a2b8 !default;
+
+$colors: () !default;
+$colors: map-merge((
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "halfgray":   $halfgray,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+), $colors);
+
+$primary:       $blue ;
+$secondary:     $gray-700 ;
+$success:       $green ;
+$info:          $orange ;
+$warning:       $yellow ;
+$danger:        $red ;
+$light:         $gray-300 ;
+$dark:          $gray-900 ;
+$notactive:     $gray-600 ;
+$halfactive:    $gray-700 ;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "notactive":  $notactive,
+  "halfactive":  $halfactive
+), $theme-colors);
+// stylelint-enable
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret:              false !default;
+$enable-rounded:            false ;
+$enable-shadows:            false !default;
+$enable-gradients:          false !default;
+$enable-transitions:        false ;
+$enable-hover-media-query:  false !default;
+$enable-grid-classes:       true !default;
+$enable-print-styles:       true !default;
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $gray-100 ;
+$body-color:                $gray-100 ;
+
