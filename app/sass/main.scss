@@ -5,4 +5,225 @@
 	background-color: #fff;
 	box-shadow: 0 0 20px 0 #d7d8db;
 }
-	
+
+.logo img {
+	height: 50px;
+	padding-left: 20px;
+}
+
+.logo p {
+	font-family: "NuevaStd-Bold", sans-serif;
+	font-size: 14px;
+	color: #66778C;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 12px;
+}
+
+.logo p span {
+	font-size: 11px;
+	opacity: 0.8;
+}
+
+	//-------------margins----------------------
+	.mt10 {
+		margin-top: 10px;
+	}
+
+	.mt15 {
+		margin-top: 15px;
+	}
+
+	.mt20 {
+		margin-top: 20px;
+	}
+
+	.mt25 {
+		margin-top: 25px;
+	}
+
+	.mt30 {
+		margin-top: 30px;
+	}
+
+	.mt35 {
+		margin-top: 35px;
+	}
+
+	.mt40 {
+		margin-top: 40px;
+	}
+
+	.mb10 {
+		margin-bottom: 10px;
+	}
+
+	.mb15 {
+		margin-bottom: 15px;
+	}
+
+	.mb20 {
+		margin-bottom: 20px;
+	}
+
+	.mb25 {
+		margin-bottom: 25px;
+	}
+
+	.mb30 {
+		margin-bottom: 30px;
+	}
+
+	.mb35 {
+		margin-bottom: 35px;
+	}
+
+	.mb40 {
+		margin-bottom: 40px;
+	}
+
+	//-------------paddings----------------------
+	.pt10 {
+		padding-top: 10px;
+	}
+
+	.pt15 {
+		padding-top: 15px;
+	}
+
+	.pt20 {
+		padding-top: 20px;
+	}
+
+	.pt25 {
+		padding-top: 25px;
+	}
+
+	.pt30 {
+		padding-top: 30px;
+	}
+
+	.pt35 {
+		padding-top: 35px;
+	}
+
+	.pt40 {
+		padding-top: 40px;
+	}
+
+	.pb10 {
+		padding-bottom: 10px;
+	}
+
+	.pb15 {
+		padding-bottom: 15px;
+	}
+
+	.pb20 {
+		padding-bottom: 20px;
+	}
+
+	.pb25 {
+		padding-bottom: 25px;
+	}
+
+	.pb30 {
+		padding-bottom: 30px;
+	}
+
+	.pb35 {
+		padding-bottom: 35px;
+	}
+
+	.pb40 {
+		padding-bottom: 40px;
+	}
+
+
+		//-------------forms----------------------
+
+		::-webkit-input-placeholder {
+   font-size: 16px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+      font-size: 16px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+      font-size: 16px;
+}
+
+:-ms-input-placeholder {
+      font-size: 16px;
+}
+
+
+
+//-------------меню----------------------
+.menue {
+  display: inline-block;
+  float: left;
+}
+
+.menu-main {
+  list-style: none;
+  margin: 5px 0 5px;
+  padding: 8px 0 5px;
+  text-align: center;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  color: #009ACA;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:before {
+	content: "|";
+	font-size: 20px;
+	margin-right: 20px;
+	color: #DADADA
+}
+
+.menu-main a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 9px;
+  margin: 0 20px 0 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: black;}
+.menu-main a.current, .menu-main a:hover{color: #009ACA; }
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: rgba(14,107,185,0.8);
+  transition: .3s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+/*1.7 Выбор города*/
+.menu-main li select{
+	font-size: 14px;
+	border: none;
+}
