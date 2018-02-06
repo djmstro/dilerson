@@ -11,7 +11,7 @@
 			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 4448,
+				"buffer_size": 4918,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -35,20 +35,19 @@
 			}
 		},
 		{
-			"file": "app/sass/libs.sass",
+			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 485,
+				"buffer_size": 1502,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/index.html",
+			"file": "app/sass/fonts.scss",
 			"settings":
 			{
-				"buffer_size": 499,
-				"encoding": "UTF-8",
+				"buffer_size": 3588,
 				"line_ending": "Windows"
 			}
 		}
@@ -97,6 +96,7 @@
 	],
 	"file_history":
 	[
+		"/C/OpenServer/domains/localhost/dilerson/app/sass/libs.sass",
 		"/C/OpenServer/domains/localhost/2YouStudio/includes/nav/nav_advert.php",
 		"/C/OpenServer/domains/localhost/2YouStudio/includes/nav/nav_index.php",
 		"/C/ProgramData/Logishrd/LogiOptions/Software/Current/Web/ru/generic-help-gestures.html",
@@ -136,7 +136,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -177,7 +177,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4448,
+						"buffer_size": 4918,
 						"regions":
 						{
 						},
@@ -193,7 +193,9 @@
 							"bs_sintax": "javascript",
 							"buffer_scroll_name": "2e5c103e",
 							"spell_check": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 816.0,
@@ -266,11 +268,11 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/sass/libs.sass",
+					"file": "app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 485,
+						"buffer_size": 1502,
 						"regions":
 						{
 						},
@@ -283,10 +285,11 @@
 						],
 						"settings":
 						{
-							"bs_sintax": "sass",
-							"buffer_scroll_name": "ac8dc637",
+							"bs_sintax": "html",
+							"buffer_scroll_name": "9b5d4ede",
 							"spell_check": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -297,30 +300,30 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/index.html",
-					"semi_transient": false,
+					"file": "app/sass/fonts.scss",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 499,
+						"buffer_size": 3588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								346,
-								346
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"bs_sintax": "html",
-							"buffer_scroll_name": "9b5d4ede",
-							"spell_check": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"color_scheme": "Packages/User/Color Highlighter/themes/OneDark.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 2.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 1296.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -331,7 +334,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 39.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -368,7 +371,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 73.0
+		"height": 63.0
 	},
 	"save_all_on_build": true,
 	"select_file":

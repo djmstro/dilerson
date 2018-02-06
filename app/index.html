@@ -11,40 +11,94 @@
 <body>
 	<header class="header">
 			<div class="container-fluid pt20">
-					<div class="row align-items-start">
+<!--ЛОГО НАЗВАНИЕ И СЛОГАН-->
 							<div class="logo col-auto">
 									<img src="img/dealer_portal_znak.png" alt="Дилерсон">
+									<p class="name">ДИЛЕРСОН</p>
+									<p class="subname">СООБЩЕСТВО ОФИЦИАЛЬНЫХ ДИЛЕРСКИХ ПРЕДПРИЯТИЙ</p>
 							</div>
-							<div class="logo col-2">
-									<p><strong>ДИЛЕРСОН</strong></p>
-									<p><strong><span>СООБЩЕСТВО ОФИЦИАЛЬНЫХ<br>ДИЛЕРСКИХ ПРЕДПРИЯТИЙ</span></strong></p>
-							</div>
-					  	<div class="col-7">
-      						<input class="form-control form-control-lg" type="text" placeholder="&#xf002;   Поиск дилера">
+<!--ПОИСК-->				
+					<div class="container">
+					  	<div class="search col-8 offset-2">
+      						<input class="form-control form-control-lg" type="text" placeholder="&#xf002;   Поиск официального дилера">
     					</div>
-					</div>
-					
-					<div class="row align-items-end">
+    			</div>
+    	</div>
+
+<!--ГЛАВНОЕ МЕНЮ-->					
 							<div class="container menue">
 									 	<ul class="menu-main">
-											<li><a href="" class="">Главная</a></li>
+											<li><a href="" class="active">Главная</a></li>
 											<li><a href="">Купить</a></li>
 											<li><a href="">Дилеры</a></li>
 											<li><a href="">Личный кабинет</a></li>
-											<li>
-												<select>
-													<option selected="">Москва</option>
-													<option>Пермь</option>
-													<option>Рязань</option>
-												</select>
+											<li class="dropdown">
+  												<a href="#" id="dropdownMenuLink" data-toggle="dropdown">Москва <span class="fa"><span></a>
+  												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    												<a class="dropdown-item" href="#">Санкт-Петербург</a>
+    												<a class="dropdown-item" href="#">Рязань</a>
+  												</div>
 											</li>
 										</ul>
 							</div>
-					</div>
-			</div>
+			
 
 			
 	</header>
+
+<!--НАВИГАЦИЯ СЛЕВА-->
+	<div class="sub_nav">
+			<div class="container-fluid">
+					<div class="card_menu">
+							<p>РАЗДЕЛЫ</p>
+							<hr>
+							<div class="list-group">
+  								<a href="#" class="list-group-item list-group-item-action active"><img src="img/nav_1_i1.png" alt="">Новости портала</a>
+  								<a href="#" class="list-group-item list-group-item-action"><img src="img/nav_1_i2.png" alt="">Мои подписки</a>
+  								<a href="#" class="list-group-item list-group-item-action"><img src="img/nav_1_i3.png" alt="">Специальные предложения</a>
+  								<a href="#" class="list-group-item list-group-item-action"><img src="img/nav_1_i4.png" alt="">Мероприятия от дилеров</a>
+  								<a href="#" class="list-group-item list-group-item-action"><img src="img/nav_1_i5.png" alt="">Статьи от дилеров</a>
+							</div>
+					</div>
+			</div>
+	</div>
+
+<!--ОСНОВНОЙ КОНТЕНТ-->
+	<div class="container mt20">
+					<div class="hello">
+							<div class="row">
+									<div class="col-7">
+											<h3>Давайте знакомиться.<br>Дилерский портал - это площадка <br>только для официальных дилерских предприятий <br>и их клиентов</h3>
+									</div>
+									<div class="col-5">
+											<p>По приглашению дилерских центров <br>мы подключаем их к Порталу, <br>а также создаём для них уникальный контент, <br>фото и видео</p>
+									</div>
+							</div>
+							<div class="row mt15">
+									<div class="col-7 mt40">
+											<img src="img/grab.png" alt="">
+											<h3><span>Почему на сайте только<br>проверенные дилерские центры?</span></h3>
+									</div>
+									<div class="col-5">
+											<p><strong>Клиентам -</strong> надёжная площадка <br>только с проверенными автомобилями <br>от официальных дилеров</p>
+											<p><strong>Дилерам -</strong> идеальная реклама</p>
+									</div>
+							</div>
+							<div class="row mt25">
+									<div class="col-8 offset-4">
+											<button type="button" class="btn btn-outline-light">Как присоединиться к порталу</button>
+									</div>
+							</div>
+					</div>
+	</div>
+
+	<div class="container">
+		<h1 class="mt15">Новости портала</h1>
+			<div class="sorry">
+					 <h2>На данный момент мы дорабатываем функционал сайта и ведём подключение официальных дилеров. <br>До запуска сайта осталось:</h2>
+					<script src="http://megatimer.ru/s/dfcfc686e28adb55acc81f083521a0fb.js"></script>
+			</div>
+	</div>
 
 <!--JS-->
 <script src="js/libs.min.js"></script>
